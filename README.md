@@ -95,11 +95,100 @@ git clone https://github.com/your-username/face-mask-detection.git
 cd face-mask-detection
 
 
----
+## 📦 Installation & Setup
 
-## ⚙️ Installation & Setup
-
-### 2️⃣ Install Dependencies
-
+### 1. Clone the Repository
 ```bash
+git clone https://github.com/your-username/face-mask-detection.git
+cd face-mask-detection
+2. Install Dependencies
+bash
+Copy code
 pip install -r requirement.txt
+📚 Required Libraries
+numpy
+
+opencv-python
+
+tensorflow
+
+keras
+
+imutils
+
+matplotlib
+
+playsound
+
+🚀 Training the Model
+Run the training script:
+
+bash
+Copy code
+python source_code_for_training.py
+This process will:
+Train a CNN-based deep learning model
+
+Save the trained model as mask_detector.model
+
+Generate training accuracy and loss plots
+
+🎥 Real-Time Mask Detection (Webcam)
+Run the testing script:
+
+bash
+Copy code
+python code_for_testing.py
+Live Features
+Green box → Mask detected
+
+Red box → No mask detected
+
+Confidence score displayed on screen
+
+Audio alert triggered for violations
+
+Press q to exit the application
+
+📊 Results
+Accuracy: ~97%
+
+Real-time detection with minimal latency
+
+Accurate detection for:
+
+Single face
+
+Multiple faces
+
+Improper mask usage
+
+🏁 Conclusion
+This project demonstrates a practical, efficient, and deployable AI-based face mask detection system using deep learning and image processing techniques.
+
+Potential Applications:
+CCTV surveillance systems
+
+Airports
+
+Shopping malls
+
+Offices
+
+Public surveillance environments
+
+🔮 Future Enhancements
+Detect improper mask wearing more accurately
+
+Integrate thermal screening
+
+Deploy on Raspberry Pi / Edge devices
+
+Extend to face recognition and access control
+
+Develop a web or mobile application interface
+
+👨‍💻 Author
+Sri Harsha Chinthala
+Bachelor of Technology – Electronics & Communication Engineering
+AI | Machine Learning | Computer Vision
