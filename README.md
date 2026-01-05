@@ -53,3 +53,157 @@ This project provides an **automated, low-cost, real-time solution** to detect w
 ├── requirement.txt                  # Python dependencies
 
 ```
+
+---
+
+## 🧪 Dataset
+
+- ~4000 curated images  
+- Classes:
+  - `with_mask`
+  - `without_mask`
+- Sources:
+  - MAFA
+  - RMFD
+  - CelebA
+  - Internet images (manually cleaned)
+
+Balanced dataset to improve model accuracy and robustness.
+
+---
+
+## 🏗 Model Architecture
+
+- **Base Model:** MobileNetV2 (ImageNet pretrained)
+- **Head Layers:**
+  - Average Pooling
+  - Dense (ReLU)
+  - Dropout (0.5)
+  - Softmax (2 classes)
+- **Loss:** Binary Crossentropy  
+- **Optimizer:** Adam  
+- **Epochs:** 20  
+- **Batch Size:** 32  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/face-mask-detection.git
+cd face-mask-detection
+
+2️⃣ Install Dependencies
+pip install -r requirement.txt
+
+
+Required Libraries
+
+numpy
+
+tensorflow
+
+keras
+
+opencv-python
+
+imutils
+
+matplotlib
+
+playsound
+
+🚀 Train the Model
+python source_code_for_training.py
+
+
+This will:
+
+Train the CNN model
+
+Save mask_detector.model
+
+Generate accuracy & loss plots
+
+🎥 Run Real-Time Mask Detection
+python code_for_testing.py
+
+Live Output
+
+🟢 Green box → Mask detected
+
+🔴 Red box → No mask detected
+
+Confidence score displayed
+
+Audio alert for violations
+
+Press Q to exit
+
+📊 Results
+
+Accuracy: ~97%
+
+Real-time performance with low latency
+
+Works for:
+
+Single face
+
+Multiple faces
+
+Improper mask usage
+
+🏁 Conclusion
+
+This project demonstrates a practical and deployable AI-based face mask detection system using deep learning and image processing.
+It can be integrated into:
+
+CCTV surveillance
+
+Airports
+
+Shopping malls
+
+Offices
+
+Public safety systems
+
+🔮 Future Enhancements
+
+Detect improper mask wearing
+
+Thermal screening integration
+
+Edge deployment (Raspberry Pi)
+
+Web / Mobile interface
+
+Face recognition integration
+
+👨‍💻 Author
+
+Sri Harsha Chinthala
+B.Tech – Electronics & Communication Engineering
+AI | Machine Learning | Computer Vision
+
+
+---
+
+### ✅ This README will:
+✔ Render badges correctly  
+✔ Look professional on GitHub  
+✔ Be recruiter-friendly  
+✔ Be resume-ready  
+
+If you want:
+- **Short resume version**
+- **GitHub banner**
+- **Demo GIF section**
+- **Deployment section**
+
+Say the word 🚀
+
+
+ChatGPT can make mistakes. Check important info.
