@@ -87,108 +87,84 @@ Balanced dataset to improve model accuracy and robustness.
 
 ---
 
+## ⚙️ Installation & Setup
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+### 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/face-mask-detection.git
 cd face-mask-detection
+```
 
-2️⃣ Install Dependencies
-pip install -r requirement.txt
-
-📚 Required Libraries
+2. Install Dependencies
+Shellpip install -r requirement.txtShow more lines
+Required Libraries
 
 numpy
-
 opencv-python
-
 tensorflow
-
 keras
-
 imutils
-
 matplotlib
-
 playsound
 
+
 🚀 Training the Model
-
 Run the training script:
-
-python source_code_for_training.py
-
-
+Shellpython source_code_for_training.pyShow more lines
 This process will:
 
 Train a CNN-based deep learning model
-
 Save the trained model as mask_detector.model
+Generate accuracy and loss plots
 
-Generate training accuracy and loss plots
 
 🎥 Real-Time Mask Detection (Webcam)
-
 Run the testing script:
+Shellpython code_for_testing.py``Show more lines
+Features:
 
-python code_for_testing.py
+Green Box → Mask detected
+Red Box → No mask detected
+Displays confidence score
+Plays audio alert when no mask is detected
+Press q to exit
 
-Live Features
-
-🟩 Green box → Mask detected
-
-🟥 Red box → No mask detected
-
-Confidence score displayed on screen
-
-Audio alert triggered for violations
-
-Press q to exit the application
 
 📊 Results
 
 Accuracy: ~97%
-
-Real-time detection with minimal latency
-
-Accurate detection for:
+Real-time detection with very low latency
+Works for:
 
 Single face
-
 Multiple faces
+Improperly worn masks
 
-Improper mask usage
+
+
 
 🏁 Conclusion
+This project demonstrates a practical and deployable AI-based face mask detection system using deep learning and computer vision.
+Potential Applications:
 
-This project demonstrates a practical, efficient, and deployable AI-based face mask detection system using deep learning and image processing.
-
-Potential Applications
-
-CCTV surveillance systems
-
+CCTV surveillance
 Airports
-
-Shopping malls
-
+Public places
 Offices
+Malls and shopping complexes
 
-Public surveillance environments
 
 🔮 Future Enhancements
 
-Detect improper mask wearing more accurately
-
-Integrate thermal screening
-
+Better detection for incorrectly worn masks
+Add thermal screening
 Deploy on Raspberry Pi / Edge devices
+Integrate face recognition
+Build web/mobile interface
 
-Extend to face recognition and access control
-
-Develop a web or mobile application interface
 
 👨‍💻 Author
-
 Sri Harsha Chinthala
-Bachelor of Technology – Electronics & Communication Engineering
+B.Tech – Electronics & Communication Engineering
 AI | Machine Learning | Computer Vision
+
