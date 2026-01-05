@@ -87,84 +87,89 @@ Balanced dataset to improve model accuracy and robustness.
 
 ---
 
+
 ## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/face-mask-detection.git
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/face-mask-detection.git  
 cd face-mask-detection
-```
 
-2. Install Dependencies
-Shellpip install -r requirement.txtShow more lines
-Required Libraries
+### 2️⃣ Install Dependencies
+pip install -r requirement.txt
 
-numpy
-opencv-python
-tensorflow
-keras
-imutils
-matplotlib
-playsound
+### 📚 Required Libraries
+- numpy  
+- opencv-python  
+- tensorflow  
+- keras  
+- imutils  
+- matplotlib  
+- playsound  
 
 
-🚀 Training the Model
+## 🚀 Training the Model
+
 Run the training script:
-Shellpython source_code_for_training.pyShow more lines
+
+python source_code_for_training.py
+
 This process will:
 
-Train a CNN-based deep learning model
-Save the trained model as mask_detector.model
-Generate accuracy and loss plots
+- Train a CNN-based deep learning model  
+- Save the trained model as mask_detector.model  
+- Generate training accuracy and loss plots  
 
 
-🎥 Real-Time Mask Detection (Webcam)
+## 🎥 Real-Time Mask Detection (Webcam)
+
 Run the testing script:
-Shellpython code_for_testing.py``Show more lines
-Features:
 
-Green Box → Mask detected
-Red Box → No mask detected
-Displays confidence score
-Plays audio alert when no mask is detected
-Press q to exit
+python code_for_testing.py
 
+Live Features:
 
-📊 Results
-
-Accuracy: ~97%
-Real-time detection with very low latency
-Works for:
-
-Single face
-Multiple faces
-Improperly worn masks
+- 🟩 Green box → Mask detected  
+- 🟥 Red box → No mask detected  
+- Confidence score displayed  
+- Audio alert triggered  
+- Press q to exit  
 
 
+## 📊 Results
+
+- Accuracy: ~97%  
+- Real-time detection with minimal latency  
+- Works for:
+  - Single face  
+  - Multiple faces  
+  - Improper mask usage  
 
 
-🏁 Conclusion
-This project demonstrates a practical and deployable AI-based face mask detection system using deep learning and computer vision.
+## 🏁 Conclusion
+
+This project demonstrates a practical, efficient, and deployable AI-based face mask detection system using deep learning and image processing.
+
 Potential Applications:
 
-CCTV surveillance
-Airports
-Public places
-Offices
-Malls and shopping complexes
+- CCTV surveillance systems  
+- Airports  
+- Shopping malls  
+- Offices  
+- Public environments  
 
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
-Better detection for incorrectly worn masks
-Add thermal screening
-Deploy on Raspberry Pi / Edge devices
-Integrate face recognition
-Build web/mobile interface
+- Better detection of improperly worn masks  
+- Integrate thermal screening  
+- Deploy on Raspberry Pi / Edge devices  
+- Add face recognition & access control  
+- Develop a web or mobile interface  
 
 
-👨‍💻 Author
-Sri Harsha Chinthala
-B.Tech – Electronics & Communication Engineering
+## 👨‍💻 Author
+
+Sri Harsha Chinthala  
+Bachelor of Technology – Electronics & Communication Engineering  
 AI | Machine Learning | Computer Vision
 
